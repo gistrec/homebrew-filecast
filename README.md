@@ -14,6 +14,12 @@ brew tap gistrec/filecast
 brew install filecast
 ```
 
+On Homebrew 6 and newer you may be prompted to trust the tap the first time:
+
+```sh
+brew trust gistrec/filecast
+```
+
 Installs a prebuilt binary from the
 [filecast releases](https://github.com/gistrec/filecast/releases): a universal
 binary on macOS (Apple Silicon + Intel) and per-architecture binaries on Linux

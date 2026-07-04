@@ -4,7 +4,6 @@ class Filecast < Formula
   # The top-level url is the macOS universal binary (Apple Silicon + Intel);
   # Linux overrides it per architecture below.
   url "https://github.com/gistrec/filecast/releases/download/v1.0.0/filecast-macos-universal"
-  version "1.0.0"
   sha256 "21fafc090d20530c95e4939c7182cd7ccf6805cc870fbf3d14f312bd648bd142"
   license "MIT"
 
