@@ -3,18 +3,18 @@ class Filecast < Formula
   homepage "https://github.com/gistrec/filecast"
   # The top-level url is the macOS universal binary (Apple Silicon + Intel);
   # Linux overrides it per architecture below.
-  url "https://github.com/gistrec/filecast/releases/download/v1.1.0/filecast-macos-universal"
-  sha256 "35c199ab03e7a933dd1262b1b06159ffe001b64154e86ca87173e82847c9779c"
+  url "https://github.com/gistrec/filecast/releases/download/v1.2.0/filecast-macos-universal"
+  sha256 "1ed9604e0b02dd12f43463e519e1946e515f5dafc5076d355f3c24da7d8dae05"
   license "MIT"
 
   on_linux do
     on_intel do
-      url "https://github.com/gistrec/filecast/releases/download/v1.1.0/filecast-linux-x86_64"
-      sha256 "b5b96337c3b748bdd9528706af0a76b0b0fea0a11a62e49c69439f430fb774c7"
+      url "https://github.com/gistrec/filecast/releases/download/v1.2.0/filecast-linux-x86_64"
+      sha256 "533e3a581ef5363eddaddefc02a094c9743f6eff5e02bf14ab50b1137cfd0304"
     end
     on_arm do
-      url "https://github.com/gistrec/filecast/releases/download/v1.1.0/filecast-linux-arm64"
-      sha256 "389d5f17af4689bfec4125cc15c5d8be4d510c469374894162a30d4f8223b798"
+      url "https://github.com/gistrec/filecast/releases/download/v1.2.0/filecast-linux-arm64"
+      sha256 "8f52f4f0236947deeb0430f31b61e7f3fccd7091dafee744e5efb11404b4cbfe"
     end
   end
 
